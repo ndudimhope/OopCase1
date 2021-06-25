@@ -8,5 +8,12 @@ namespace OopCase1.OopCase1.Objects
 {
     interface ITelephone
     {
+
+        string Manufacturer { get; }
+
+        string Model { get; }
+
+        void MakeCall();
+        void RecieveCall();
     }
 }

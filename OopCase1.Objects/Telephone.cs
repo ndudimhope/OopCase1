@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OopCase1.OopCase1.Objects
 {
-    class Telephone
+    class Telephone:ITelephone
     {
         private readonly string _manufacturer;
         private readonly string _model;
@@ -23,6 +23,20 @@ namespace OopCase1.OopCase1.Objects
 
         public void RecieveCall()
         {
+
+        }
+
+        public string Manufacturer 
+        {
+
+            get => _manufacturer;
+            
+        }
+
+        public string Model
+        {
+
+            get => _model;
 
         }
     }
