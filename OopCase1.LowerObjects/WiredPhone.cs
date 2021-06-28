@@ -9,6 +9,7 @@ namespace OopCase1.OopCase1.LowerObjects
 {
     class WiredPhone:Telephone
     {
+        private readonly KeyPadType Physical;
 
     }
 }

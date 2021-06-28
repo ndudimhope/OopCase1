@@ -9,7 +9,7 @@ namespace OopCase1.OopCase1.LowerObjects
 {
     class SmartPhone:MobilePhone
     {
-        KeyPadType Virtual;
+        private readonly KeyPadType Virtual;
 
         public void CheckMail()
         {

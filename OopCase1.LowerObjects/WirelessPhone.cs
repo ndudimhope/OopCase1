@@ -9,5 +9,6 @@ namespace OopCase1.OopCase1.LowerObjects
 {
     class WirelessPhone:MobilePhone
     {
+       private readonly KeyPadType Physical;
     }
 }
